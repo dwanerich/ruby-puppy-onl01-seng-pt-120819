@@ -16,7 +16,9 @@ class Dog
   end
   
   def self.print_all
+   @@names.delete(Snoopy)
    puts @@names.uniq
+   
   end
   
   def save
