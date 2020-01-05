@@ -16,8 +16,7 @@ class Dog
   end
   
   def self.print_all
-    @@names.each do
-    puts "#{name}""
+    @@names.uniq
   end
   
   def save
