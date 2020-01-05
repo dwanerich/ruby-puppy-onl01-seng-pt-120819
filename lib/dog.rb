@@ -17,7 +17,7 @@ class Dog
   
   def self.print_all
    puts @@names.uniq.delete_at(-1)
-   puts @@names
+   puts @@names.uniq
   end
   
   def save
