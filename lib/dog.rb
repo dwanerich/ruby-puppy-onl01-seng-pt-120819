@@ -16,7 +16,7 @@ class Dog
   end
   
   def self.print_all
-   @@names.split.
+   @@names.uniq.delete_at(-1) + @@na
    
    
   end
